@@ -46,5 +46,5 @@ The application must have:
 1. Copy project to local environment - `git clone `
 2. Copy file `cp .env.example .env`
 3. Edit .env file with your DB connection information
-4. Run command for initialization project `init`
+4. Run command for initialization project `php run init`
 5. For create user `php run create user --login=test_user --password=plain_password --roles=create,update,list,delete`
