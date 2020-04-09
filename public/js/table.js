@@ -4,7 +4,6 @@ $(document).ready(() => {
         $.ajax({
             url: '/users/list/table?page=' + page
         }).done(function (data) {
-            console.log(data.roles.search('delete'));
             if (data.roles.search('create')!==-1) {
                 $('.add-button').removeClass('d-none');
             }

@@ -21,26 +21,7 @@ class UsersController extends ControllerBase
 
     public function indexAction()
     {
-//        $privateResources = [
-//            'users' => ['index'],
-//        ];
-//        $rolesSession = $this->session->get('auth')['roles'];
-//        if (strpos($rolesSession, 'list')) {
-//            $privateResources['users'][] = 'list';
-//        }
-//        if (strpos($rolesSession, 'create')) {
-//            $privateResources['users'][] = 'new';
-//            $privateResources['users'][] = 'create';
-//        }
-//        if (strpos($rolesSession, 'update')) {
-//            $privateResources['users'][] = 'edit';
-//            $privateResources['users'][] = 'save';
-//        }
-//        if (strpos($rolesSession, 'delete')) {
-//            $privateResources['users'][] = 'delete';
-//        }
-//        var_dump($privateResources);
-//        die();
+
     }
 
     public function listAction(string $type)

@@ -43,7 +43,6 @@ $(document).ready(() => {
             url: "/users/save",
             data: $(this).serialize()
         }).done((data) => {
-            console.log(data);
             formLogic(data);
         });
     });
